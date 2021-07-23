@@ -4,7 +4,7 @@ using System.Text;
 using Bccr.WebApi.ManejoDeExcepciones.Abstracciones;
 using Microsoft.Extensions.Logging;
 
-namespace Bccr.PlaceHolder.Abstracciones.Contenedores
+namespace Bccr.PlaceHolder.Abstracciones.MAPI.Contenedores
 {
     public class LlaveValorException : BccrBaseException
     {

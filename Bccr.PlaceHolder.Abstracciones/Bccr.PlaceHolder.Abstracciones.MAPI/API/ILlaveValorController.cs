@@ -1,10 +1,10 @@
-﻿using Bccr.PlaceHolder.Abstracciones.Contenedores;
-using Bccr.PlaceHolder.Abstracciones.SG;
+﻿using Bccr.PlaceHolder.Abstracciones.MAPI.Contenedores;
+using Bccr.PlaceHolder.Abstracciones.MAPI.SG;
 using Microsoft.AspNetCore.Mvc;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 
-namespace Bccr.PlaceHolder.Abstracciones.API
+namespace Bccr.PlaceHolder.Abstracciones.MAPI.API
 {
     public interface ILlaveValorController
     {
