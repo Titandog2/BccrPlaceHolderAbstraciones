@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Bccr.PlaceHolder.Abstracciones.Contenedores
+namespace Bccr.PlaceHolder.Abstracciones.API.Contenedores
 {
     public class LlaveValor
     {

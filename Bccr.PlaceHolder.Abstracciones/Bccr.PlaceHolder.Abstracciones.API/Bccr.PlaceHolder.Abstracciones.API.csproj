@@ -2,8 +2,8 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
-    <AssemblyName>Bccr.PlaceHolder.Abstracciones</AssemblyName>
-    <RootNamespace>Bccr.PlaceHolder.Abstracciones</RootNamespace>
+    <AssemblyName>Bccr.PlaceHolder.Abstracciones.API</AssemblyName>
+    <RootNamespace>Bccr.PlaceHolder.Abstracciones.API</RootNamespace>
 	<Description>Abstracciones</Description>
   </PropertyGroup>
 
@@ -12,7 +12,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="Bccr.WebApi.ManejoDeExcepciones.Abstracciones" Version="2.0.0.4" />
+    <PackageReference Include="Bccr.WebApi.ManejoDeExcepciones.Abstracciones" Version="1.0.0.9" />
     <PackageReference Include="Microsoft.AspNetCore.Mvc" Version="2.2.0" />
   </ItemGroup>
 

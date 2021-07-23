@@ -1,13 +1,16 @@
-﻿using Bccr.PlaceHolder.Abstracciones.Contenedores;
-using System;
+﻿using Bccr.PlaceHolder.Abstracciones.MAPI.Contenedores;
+using Bccr.PlaceHolder.Abstracciones.MAPI.DA;
+using Bccr.PlaceHolder.Abstracciones.MAPI.SG;
+using Microsoft.AspNetCore.Mvc;
 using System.Collections.Generic;
-using System.Text;
 using System.Threading.Tasks;
 
-namespace Bccr.PlaceHolder.Abstracciones.DA
+namespace Bccr.PlaceHolder.Abstracciones.MAPI.BW
 {
-    public interface ILlaveValorDA
+    public interface ILlaveValorBW
     {
+        //ILlaveValorDA LlaveValorDA { get; set; }
+
         Task<IEnumerable<LlaveValor>> ObtenerTodosAsyn();
 
         Task<string> ObtenerPorLlaveAsync(int llave);

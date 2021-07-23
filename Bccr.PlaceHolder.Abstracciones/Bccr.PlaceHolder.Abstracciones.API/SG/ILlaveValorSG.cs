@@ -1,9 +1,9 @@
-﻿using Bccr.PlaceHolder.Abstracciones.Contenedores;
+﻿using Bccr.PlaceHolder.Abstracciones.API.Contenedores;
 using Microsoft.AspNetCore.Mvc;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 
-namespace Bccr.PlaceHolder.Abstracciones.SG
+namespace Bccr.PlaceHolder.Abstracciones.API.SG
 {
     public interface ILlaveValorSG
     {
