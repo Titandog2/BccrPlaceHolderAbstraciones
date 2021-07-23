@@ -8,11 +8,13 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="SPA\" />
+    <Compile Remove="SPA\**" />
+    <EmbeddedResource Remove="SPA\**" />
+    <None Remove="SPA\**" />
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="Bccr.WebApi.ManejoDeExcepciones.Abstracciones" Version="1.0.0.9" />
+    <PackageReference Include="Bccr.WebApi.ManejoDeExcepciones.Abstracciones" Version="2.0.0.4" />
     <PackageReference Include="Microsoft.AspNetCore.Mvc" Version="2.2.0" />
   </ItemGroup>
 
@@ -23,14 +25,8 @@
 	  </Content>
     <Content Include="API\ILlaveValorController.cs" />
     <Content Include="API\LlaveValorController.feature" />
-    <Content Include="BW\ILlaveValorBW.cs" />
-    <Content Include="BW\LlaveValorBW.feature" />
     <Content Include="Contenedores\LlaveValor.cs" />
     <Content Include="Contenedores\LlaveValorException.cs" />
-    <Content Include="DA\ILlaveValorDA.cs" />
-    <Content Include="DA\LlaveValorDA.feature" />
-    <Content Include="MAPI\ILlaveValorController.cs" />
-    <Content Include="MAPI\LlaveValorController.feature" />
     <Content Include="SG\ILlaveValorSG.cs" />
     <Content Include="SG\LlaveValorSG.feature" />
   </ItemGroup>

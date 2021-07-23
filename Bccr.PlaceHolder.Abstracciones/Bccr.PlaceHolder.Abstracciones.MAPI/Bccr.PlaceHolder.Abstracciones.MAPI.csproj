@@ -8,7 +8,9 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="SPA\" />
+    <Compile Remove="SPA\**" />
+    <EmbeddedResource Remove="SPA\**" />
+    <None Remove="SPA\**" />
   </ItemGroup>
 
   <ItemGroup>
@@ -21,8 +23,6 @@
 		  <IncludeInVSIX>true</IncludeInVSIX>
 		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
 	  </Content>
-    <Content Include="API\ILlaveValorController.cs" />
-    <Content Include="API\LlaveValorController.feature" />
     <Content Include="BW\ILlaveValorBW.cs" />
     <Content Include="BW\LlaveValorBW.feature" />
     <Content Include="Contenedores\LlaveValor.cs" />
