@@ -31,8 +31,6 @@
     <Content Include="DA\LlaveValorDA.feature" />
     <Content Include="MAPI\ILlaveValorController.cs" />
     <Content Include="MAPI\LlaveValorController.feature" />
-    <Content Include="SG\ILlaveValorSG.cs" />
-    <Content Include="SG\LlaveValorSG.feature" />
   </ItemGroup>
 
 </Project>

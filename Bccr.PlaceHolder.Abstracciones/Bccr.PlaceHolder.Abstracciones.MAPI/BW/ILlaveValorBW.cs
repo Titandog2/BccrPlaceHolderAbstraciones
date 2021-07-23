@@ -9,7 +9,7 @@ namespace Bccr.PlaceHolder.Abstracciones.MAPI.BW
 {
     public interface ILlaveValorBW
     {
-        //ILlaveValorDA LlaveValorDA { get; set; }
+        ILlaveValorDA LlaveValorDA { get; set; }
 
         Task<IEnumerable<LlaveValor>> ObtenerTodosAsyn();
 
